@@ -1,19 +1,40 @@
-**setting**
-yarn version ที่ใช้ 1.22.22^
-node version ที่ใช้ 20.19.2^
+# Tag Input Project
 
-**scripts**
-yarn create สำหรับสร้างโปรเจค
-yarn build สำหรับ build
-yarn dev สำหรับ development
+## Setting
 
-**Technical**
-React TypeScript (Next.js)
-glocals.css เป็นตัวกำหนด css
-Tag Input กำหนดไว้ที่ Components
+- **Yarn version**: 1.22.22^
+- **Node version**: 20.19.2^
 
-**Requirements**
-Add Tags ด้วย Enter,customizable separator,Spacebar
-Remove tags กำหนดไว้เป็นปุ่ม X
-Set Max Limit Tag จำกัดไว้ที่ 5 Tags และเมื่อเกินจำนวนที่กำหนดจะแสดง warning
-Set Validation ป้องกันกรณีกรอกค่าซ้ำ และแสดง warning เมื่อมีการกรอกมา
+## Scripts
+
+- `yarn create` - สำหรับสร้างโปรเจค
+- `yarn build` - สำหรับ build
+- `yarn dev` - สำหรับ development
+
+## Technical Stack
+
+- React TypeScript (Next.js)
+- `globals.css` - เป็นตัวกำหนด CSS
+- Tag Input - กำหนดไว้ที่ Components
+
+## Requirements
+
+### Add Tags
+
+- รองรับการเพิ่ม tags ด้วย **Enter**
+- รองรับ customizable separator
+- รองรับการเพิ่ม tags ด้วย **Spacebar**
+
+### Remove Tags
+
+- กำหนดไว้เป็นปุ่ม **X**
+
+### Set Max Limit Tag
+
+- จำกัดไว้ที่ **5 Tags**
+- เมื่อเกินจำนวนที่กำหนดจะแสดง warning
+
+### Set Validation
+
+- ป้องกันกรณีกรอกค่าซ้ำ
+- แสดง warning เมื่อมีการกรอกค่าซ้ำ
